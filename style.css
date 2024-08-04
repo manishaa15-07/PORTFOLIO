@@ -1,0 +1,272 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+      background-color: black;
+      color: white;
+      font-family: 'Poppins';
+  }
+  nav{
+    width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      background-color: rgb(4, 4, 51);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 80px;
+  
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0px;
+    height: 5px;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+content: '';
+width: 100%;
+    height: 5px;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 20px;
+}
+.left{
+    margin-left: 60px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.right{
+  font-size: 1rem;
+}
+#name{
+    color: green;
+    font-size: 3rem;
+   font-weight: 600;
+}
+.firstsection{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.leftsec{
+    margin-left: 80px;
+    margin-top: 150px;
+    font-size: 2rem;
+}
+.leftsec span{
+    font-size: 3.1rem;
+}
+.rightsec{
+    margin-left: 100px;
+}
+.rightsec img{
+    width: 500px;
+    height: 500px;
+  }
+  #element{
+    color: green;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+  #projj{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .proj-image img{
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  .proj-info{
+    padding-left: 50px;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .proj-image{
+    width: 500px;
+    padding-left: 0px;
+  }
+  .proj a{
+    padding-left: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  .proj a:hover{
+    color: #7eeed0;
+  }
+  .proj:hover{
+    box-shadow: 0px -5px 10px 0px rgba(236, 233, 233, 0.5)
+  }
+  .proj{
+    width: 25%;
+    border-radius: 20px;
+        box-shadow: 0px -5px 10px 0px rgba(237, 218, 218, 0.5);
+
+    padding-bottom: 15px;
+  }
+  .proj-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #about{
+    margin-top: 50px;
+}
+.row{
+    margin-left: 70px;
+}
+.col1 p{
+    font-size: 1.2rem;
+}
+#abt{
+font-size: 2rem;
+margin-bottom: 30px;
+}
+.title{
+margin-top: 10px;
+display: flex;
+justify-content:left;
+align-items: center;
+gap: 3.5rem;
+}
+
+.links{
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+ } 
+ .links::after{
+    content: '';
+    width: 0px;
+     height: 5px;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 20px;
+    transition: 0.5s;
+ }
+ .active::after{
+    width: 50%;
+ }
+ .tabcontent{
+    margin-left: 0px;
+    display: none;
+ }
+ .tabcontent ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 1.1rem;
+ }
+ .tabcontent span{
+    color: green;
+    font-weight: 500;
+ }
+ .tabcontent.tab{
+    display: block;
+ }
+
+
+  #con{
+    font-size: 2rem;
+    margin-bottom: 50px;
+  } 
+  .contact-left{
+    margin-top: 50px;
+  }
+  #contact{
+    margin-top: 50px;
+  }
+
+  .social{
+    margin-top: 60px;
+  }
+    
+  .row{
+    display: flex;
+    justify-content: left;
+    gap:100px;
+  }
+  
+  .call{
+    margin-right: 40px;
+  }
+  
+
+  .contact-left i{
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .social i{
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  
+  .social i:hover{
+    color: rgb(12, 94, 94);
+    
+  }
+  
+  .btn{
+    background-color: green;
+    width: 105px;
+    height: 50px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius:15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: none;
+    border: black;
+    margin-bottom: 50px;
+  }
+  .contact-right{
+    width: 70%;
+  }
+  .contact-right form{
+     margin-left: 300px;
+  }
+  
+  form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+     padding: 20px; 
+    color: #fff;
+    font-size: 1rem;
+    margin: 20px;
+  }
+
+ 
+ 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">     
+        <nav>
+            <div class="left"><span id="name">M</span>anisha</div>
+            <div class="right">
+                <ul>
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#project">Projects</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+         <div class="leftsec">
+             Hey, My name is <span>Manisha</span>
+             <div> I am a passionate</div>
+             <span id="element"></span>
+         </div>
+         <div class="rightsec">
+             <img src="https://static.vecteezy.com/system/resources/previews/043/938/728/non_2x/programmer-line-inverted-icon-design-vector.jpg">
+         </div>
+        </section>
+        <section id="project">
+            <h1 id="projj">Projects</h1>
+            <div class="container proj-container">
+                    <div class="proj">
+                      <div class="proj-info">Built an Amazon Clone</div>  
+                            <div class="proj-image">
+                                <img src="amazoneclone.png" alt="amazoncloneimage" width="600px" height="600px">
+                            </div>
+                            <a href="https://github.com/manishaa15-07/amazonclone">Github Link</a>
+                    </div>
+                    <div class="proj">
+                        <div class="proj-info">Made a College Website</div>
+                        <div class="proj-image">
+                            <img src="collegeproj.png" alt="collegeweb">
+                        </div>
+                        <a href="https://github.com/manishaa15-07/CollegeWebsite">Github Link</a>
+                    </div>
+                    <div class="proj">
+                        <div class="proj-info">Made a group chat website</div>
+                        <div class="proj-image">
+                                <img src="chitchat.png">
+                        </div><a href="https://github.com/manishaa15-07/chit-chat-app">Github Link</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+                   <!-- ---------------------------about-------------------------------- -->
+                   <section id="about">
+                    <div class="container">
+                      <div class="row">
+                        <!-- <div class="col1">image</div> -->
+                        <div class="col1">
+                            <h1 id="abt">About Me</h1>
+                            <p>
+                                Myself Manisha Choudhary. I am from Rajasthan. Currently I live in Vapi, Gujarat. I belong to a Bussiness Family. I am pursuing B.Tech in Computer Science from Sardar VallabhBhai National Institute of Technology.
+                                <br> I Love Coding. I have made some projects also.
+                                <br>
+                            </p>
+            
+            
+            
+                            <div class="title">
+                                <p class="links active"  onclick="openn('education')">Education</p>
+                                <p class="links"  onclick="openn('skills')">Skills</p>
+                                <p class="links"  onclick="openn('projects')">Projects</p>
+                            </div>
+                            <div class="tabcontent tab" id="education">
+                                <ul>
+                                    <li><span>Engineering</span><br>Pursuing B.tech in CSE from SVNIT</li>
+                                    <li><span>Schooling</span><br>Completed 10th & 12th <br>from St. Francis High School ,<br>Vapi , Gujarat</li>
+                                </ul>
+                            </div>
+                                <div class="tabcontent" id="skills" >
+                                    <ul>
+                                        <!-- <li><span>Web D</span><br>Web Development</li> -->
+                                        <li><span>Front-End</span><br>HTML-CSS-JAVASCRIPT
+                                        <br> React js</li>
+                                        <li><span>Back-End</span><br>MongoDb , NodeJs ,Express</li>
+                                    </ul>
+                                </div>
+                                <div class="tabcontent" id="projects">
+                                    <ul>
+                                        <!-- <li><span>Web D</span><br>Web Development</li> -->
+                                        <li><span>Web D</span><br>1. Built an amazon clone app
+                                        <br>2. Built a college website
+                                        <br>3. Built a website for group chat
+                                    </li>
+                                        <!-- <li><span>Back-End</span><br>MongoDb , NodeJs</li> -->
+                                    </ul>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+                   </section>
+            
+                   <section id="contact">
+                    <div class="container">
+                        <div class="row contact-row">
+                            <div class="contact-left">
+                                <h1 id="con">Contact Me</h1>
+                                <p><i class="fa-regular fa-envelope"></i>manishaa@gmail.com</p>
+                                <p><i class="fa-solid fa-phone call"></i>9313244365</p>
+                                <div class="social">
+                                    <a ef=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                       
+                        <div class="contact-right">
+                        <form>
+                                    <input type="text" name="name" placeholder="Enter your name" required>
+                                    <input type="email" name="email" placeholder="Enter your email id" required>
+                                    <textarea name="query" rows="6" placeholder="Ask anything" required></textarea>
+                                    <button type="submit" class="btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                   </section>
+</main>            
+                   
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', ' Software Engineer'],
+      typeSpeed: 50,
+    });
+    // event.preventDefault();
+    var tablinks=document.getElementsByClassName("links");
+    var tabcontents=document.getElementsByClassName("tabcontent");
+    function openn(name){
+
+        for(link of tablinks){
+            link.classList.remove("active");
+        }
+        for(content of tabcontents){
+            content.classList.remove("tab");
+        }
+         // Add active class to the clicked tab link
+event.currentTarget.classList.add("active");
+
+// Show the corresponding tab content
+document.getElementById(name).classList.add("tab");
+
+    }
+   
+  </script>
+</body>
+</html>
